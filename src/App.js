@@ -1,12 +1,14 @@
-import react from "react";
+import "./index.css";
+
+import Arkaplan from "./Bilesenler/Arkaplan";
 
 function App() {
   return (
-
-
-  <section className="uygulama">
-  <div id="baslik" ></div>
-  </section>);
+    <section className="uygulama">
+      <Arkaplan />
+      <div id="baslik">Hava Durumu</div>
+    </section>
+  );
 }
 
 export default App;
