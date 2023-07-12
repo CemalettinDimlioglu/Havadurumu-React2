@@ -1,12 +1,12 @@
 
-import yagmurlu from "../../Resimler/rainy.jpg";
+import ResimCek from "./ResimCek";
 
-function index() {
+function index({arkaplan}) {
   return (
     <div className="arkaplan">
       <div className="overlay"></div>
 
-      <img className="arkaplan-resim" alt="" src={yagmurlu} ></img>
+      <ResimCek durum={arkaplan}/>
     </div>
   );
 }
