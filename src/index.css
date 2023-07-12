@@ -64,7 +64,7 @@
   border: none;
   font-size: var(--arama-yazi-boyut);
   background-color: var(--renk-arama-arka);
-  color: var(--renk-default);
+  
 }
 .sonuc {
   position: relative;
