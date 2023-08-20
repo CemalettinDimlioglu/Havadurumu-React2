@@ -1,7 +1,10 @@
-import react,{useState} from "react";
+import {useState} from "react";
 
 function SearchBar({ setHavaDurumu }) {
-   
+  const api = {
+    key: "552911de23046c514cc783c3aecc7e78",
+    base: "https://api.openweathermap.org/data/2.5/weather",
+  };
 
   const [araParametre, setAraParametre] = useState("");
   const search = (e) => {
